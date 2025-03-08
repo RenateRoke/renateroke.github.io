@@ -1,0 +1,10 @@
+baseURL = 'https://example.org/'
+languageCode = 'nl-NL'
+defaultContentLanguage = 'nl'
+title = 'Renate Roke'
+theme = 'zen'
+
+[Params]
+  mobilemenu = true
+  menuInHeader = true
+ sectionPagesMenu = 'main'

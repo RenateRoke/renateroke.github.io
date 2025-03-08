@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renate Roke - consultant digitale toegankelijkheid  Renate Roke</title>
+    <link>http://localhost:1313/</link>
+    <description>  Renate Roke - consultant digitale toegankelijkheid  Renate Roke</description>
+    <generator>Hugo</generator>
+    <language>nl-NL</language>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Nee geintje, hier kun je me vinden:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/renate-roke/&#34;&gt;Renate op LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/RenateRoke&#34;&gt;Renate op GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://swink.nl/over-ons/team/renate-roke/&#34;&gt;Renate bij Swink&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Over mij</title>
+      <link>http://localhost:1313/overmij/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/overmij/</guid>
+      <description>&lt;h1 id=&#34;over-mij&#34;&gt;Over mij&lt;/h1&gt;&#xA;&lt;p&gt;Toegepaste psychologie gestudeerd, in de marketing en redactie gewerkt en nu sinds een jaar of 5 bezig met digitale toegankelijkheid. En dat is ook wat ik wil blijven doen. Na jaren opschrijven wat niét goed gaat (hou nou eens op met dikgedrukte tekst gebruiken als een kopje!), hou ik me nu liever bezig met hoe het wél moet. Ik werk bij &lt;a href=&#34;https://swink.nl/&#34;&gt;Swink&lt;/a&gt;, waar ik hele leuke klussen doe voor een divers scala aan klanten.&lt;/p&gt;&#xA;&lt;p&gt;Buiten mijn werk om kun je vaak buiten vinden - ik wandel en kampeer heel graag. Daarnaast heb ik een heel scala aan (afwisselende) hobbies:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lezen&lt;/li&gt;&#xA;&lt;li&gt;Boogschieten&lt;/li&gt;&#xA;&lt;li&gt;Dingen maken (sjaals, mutsen, hangers, mede, aardewerk potjes)&lt;/li&gt;&#xA;&lt;li&gt;Spaans leren&lt;/li&gt;&#xA;&lt;li&gt;Koken&lt;/li&gt;&#xA;&lt;li&gt;Communiceren in gifjes en memes&lt;/li&gt;&#xA;&lt;li&gt;Doomscrollen&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Verder ben ik gepassioneerd over neurodiversiteit en mentale gezondheid. Ik heb zelf twee extra readme&amp;rsquo;s: autisme en adhd.&lt;/p&gt;&#xA;&lt;p&gt;Wil je contact met me opnemen over één van bovenstaande onderwerpen? Kijk dan even op de pagina &amp;lsquo;Contact&amp;rsquo;.&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Testpagina 1</title>
+      <link>http://localhost:1313/blogs/new_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/new_post/</guid>
+      <description>&lt;p&gt;Test&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Testpagina 2</title>
+      <link>http://localhost:1313/blogs/new_post2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/new_post2/</guid>
+      <description>&lt;p&gt;Nog een test&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>Testpagina 3</title>
+      <link>http://localhost:1313/blogs/new_post3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/new_post3/</guid>
+      <description>&lt;p&gt;Wéér een test&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>

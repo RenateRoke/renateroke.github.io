@@ -1,0 +1,106 @@
+// stylelint-disable scss/dollar-variable-colon-space-after, scss/dollar-variable-empty-line-before
+
+// Base colors.
+$black:                 #000;
+$nearblack:             lighten($black, 20%); // #333
+$grey-dark:             lighten($black, 40%); // #666
+$grey:                  lighten($black, 60%); // #999
+$grey-light:            lighten($black, 80%); // #ccc
+$grey-extra-light:      lighten($black, 93.33%); // #eee
+$nearwhite:             lighten($black, 97%); // #f7f7f7
+$white:                 #fff;
+
+$blue:                  #0072b9;
+$red:                   #c00;
+$green:                 #43a808;
+$yellow:                #fd0;
+
+$darkestgreen:          #294141;
+$darkgreen:             #3b5453;
+$mediumgreen:           #4e6766;
+$lightgreen:            #92a3a3;
+$lightestgreen:         #ecf1f2;
+
+
+$brand:                 $grey-dark;
+$brand-alt:             $grey;
+$brand-light:           $grey-light;
+$brand-dark:            $nearblack;
+
+// Colour map.
+$colors: (
+  brand:                  $brand,
+  brand-alt:              $brand-alt,
+  brand-light:            $brand-light,
+  brand-dark:             $brand-dark,
+
+  text:                   $nearblack,
+  text-bg:                $white,
+  text-meta:              $grey-dark,
+  text-header:            $lightestgreen,
+  text-footer:            $lightestgreen,
+
+  link:                   $darkestgreen,
+  link-visited:           $brand-dark,
+  link-hover:             $brand,
+  link-active:            $red,
+
+  link-inverted:          $lightestgreen,
+  link-visited-inverted:  $lightestgreen,
+  link-hover-inverted:    $lightestgreen,
+  link-background-inverted: $darkestgreen,
+  link-active-inverted:   $red,
+
+  border:                 $brand,
+  border-light:           $brand-light,
+  border-dark:            $brand-dark,
+
+  autocomplete:           $black,
+  autocomplete-bg:        $white,
+  autocomplete-select:    $white,
+  autocomplete-select-bg: $blue,
+
+  body-bg:                $lightestgreen,
+  header-bg:              $darkgreen,
+  footer-bg:              $darkgreen,
+  backdrop:               $lightgreen,
+
+  mobile-menu:            $darkestgreen,
+  mobile-menu-cover:      rgba($black, .2),
+  mobile-menu-link:       $lightestgreen,
+  mobile-menu-link-hover: $darkestgreen,
+  mobile-menu-hover-background: $lightestgreen,
+
+  button:                 transparent,
+  button-hover:           $lightestgreen,
+  button-text:            $lightestgreen,
+  button-text-hover:      $darkestgreen,
+  button-disabled:        $grey,
+
+  mark-highlight:         $red,
+  mark-bg:                $yellow,
+
+  menu-active:            $black,
+
+  preview-bg:             lighten($yellow, 43%),
+
+  row-header:             transparent,
+  row-odd:                $nearwhite,
+  row-even:               transparent,
+
+  status:                 $green,
+  status-bg:              lighten($green, 62%),
+  warning:                $black,
+  warning-bg:             lighten($yellow, 45%),
+  warning-border:         $yellow,
+  error:                  $red,
+  error-bg:               lighten($red, 57%),
+
+  watermark:              $grey-extra-light,
+
+  headings:               $nearblack,
+
+  code:                   $nearblack,
+
+  highlight:              $brand-alt,
+);

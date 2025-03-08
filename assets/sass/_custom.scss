@@ -1,0 +1,98 @@
+// Site custom styles. This file loads last.
+
+.footer {
+  color: var(--color-text-footer);
+  font-family: var(--ff-headings);
+}
+
+
+.header,
+%header {
+  padding-block: var(--gutters);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutters);
+  background-color: var(--color-header-bg);
+
+  @include respond-to(s) {
+    flex-direction: row;
+  }
+
+  // Wrapping link for logo.
+  &__logo {
+    width: fit-content;
+  }
+
+  // Logo image.
+  &__logo-image {
+    vertical-align: bottom;
+  }
+
+  // The name of the website.
+  &__site-name {
+    margin: 0;
+    line-height: 1;
+  }
+
+  // The link around the name of the website.
+  &__site-link {
+    &:link,
+    &:visited {
+      color: var(--color-link-inverted);
+      text-decoration: underline;
+      font-size: var(--fs-xxl);
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  // Wrapper for any blocks placed in the header region.
+  &__region {
+    @include respond-to(s) {
+      margin-inline-start: auto;
+    }
+  }
+}
+
+// Navigation
+
+.main-menu {
+  margin-block-start: .75rem;
+  outline: 0;
+
+  li {
+    margin-block-end: .75rem;
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    background-color: var(--color-button);
+    color: var(--color-text-bg);
+    padding: 2px 8px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-button-hover);
+      color: var(--color-button-text-hover);
+    }
+
+    &:active,
+    &[aria-current] {
+      background-color: var(--color-button);
+      text-decoration: underline;
+
+      &:hover,
+      &:focus {
+        background-color: var(--color-button-hover);
+        color: var(--color-button-text-hover);
+      }
+    }
+
+  
+  }
+}
