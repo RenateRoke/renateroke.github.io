@@ -11,4 +11,4 @@ Ik kan je heel goed vertellen wat niét toegankelijk is en ik doe mijn best om t
 Als je tips voor me hebt, hoor ik super graag van je!
 
 Liefs,
-Renate
+Renate 
