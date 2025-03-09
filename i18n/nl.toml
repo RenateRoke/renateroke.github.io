@@ -1,0 +1,113 @@
+[menu_title]
+other = "Hoofdmenu"
+
+[menu_home]
+other = "Hoofdmenu"
+
+[menu_mobile]
+other = "Hoofdmenu"
+
+[pager_next]
+other = "Volgende"
+
+[pager_prev]
+other = "Vorige"
+
+[taxo_tags]
+other = "Tags"
+
+[last_mod]
+other = "Laatste update:"
+
+[created]
+other = "Aangemaakt:"
+
+[search_placeholder]
+other = "Zoeken"
+
+[search_title]
+other = "Zoeken"
+
+[search_loading]
+other = "Zoekresultaten laden"
+
+[string_at]
+other = "in"
+
+[string_by]
+other = "door"
+
+[string_follow]
+other = "volg"
+
+[string_in]
+other = "in"
+
+[string_on]
+other = "op"
+
+[string_recent_content]
+other = "Recente bijdragen"
+
+[string_see_also]
+other = "Zie ook"
+
+[string_edit]
+other = "Aanpassen"
+
+[string_view]
+other = "Bekijken"
+
+[js_required]
+other = "Je hebt Javascript nodig om deze functie te gebruiken."
+
+[contact_submitted]
+other = "Je bericht is verzonden."
+
+[contact_error]
+other = "Er is iets fout gegaan met het verzenden van je bericht."
+
+[contact_name]
+other = "Je voor- en achternaam"
+
+[contact_name_placeholder]
+other = "Naam"
+
+[contact_mail]
+other = "E-mail addres"
+
+[contact_mail_placeholder]
+other = "Je e-mail addres"
+
+[contact_subject]
+other = "Onderwerp"
+
+[contact_subject_placeholder]
+other = "Onderwerp"
+
+[contact_message]
+other = "Bericht"
+
+[contact_message_placeholder]
+other = "Bericht"
+
+[contact_submit]
+other = "Verstuur bericht"
+
+[contact_honeypot]
+other = "Als je een mens bent mag je dit overslaan"
+
+[lang_select_title]
+other = "Taal kiezen"
+
+[cookieconsent_message]
+other = "Deze website gebruikt alleen cookies die nodig zijn voor het functioneren van de website."
+
+[cookieconsent_accept]
+other = "Accepteren"
+
+[cookieconsent_decline]
+other = "Alleen noodzakelijke cookies accepteren"
+
+[privacy_policy]
+other = "Privacy beleid"
