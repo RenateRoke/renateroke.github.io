@@ -16,3 +16,5 @@ Buiten mijn werk om kun je me vaak buiten vinden - ik wandel en kampeer heel gra
 - Doomscrollen
 
 Wil je contact met me opnemen over één van bovenstaande onderwerpen? Kijk dan even op de pagina 'Contact'. 
+
+![NV Access makers van NVDA supporter badge 2025. Omdat ik NVDA persoonlijk niet écht nodig heb, heb ik gedoneerd.](/images/nvdasupporter.jpg)
