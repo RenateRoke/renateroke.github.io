@@ -2,7 +2,7 @@ baseURL = 'https://renateroke.github.io/'
 languageCode = 'nl-NL'
 defaultContentLanguage = 'nl'
 title = 'Renate Roke'
-theme = 'zen'
+theme = 'hugo-theme-zen'
 
 [Params]
   mobilemenu = true
