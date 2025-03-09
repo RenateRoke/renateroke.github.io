@@ -17,4 +17,5 @@ Buiten mijn werk om kun je me vaak buiten vinden - ik wandel en kampeer heel gra
 
 Wil je contact met me opnemen over één van bovenstaande onderwerpen? Kijk dan even op de pagina 'Contact'. 
 
-![NV Access makers van NVDA supporter badge 2025. Omdat ik NVDA persoonlijk niet écht nodig heb, heb ik gedoneerd.](/images/nvdasupporter.jpg)
+![NV Access makers van NVDA supporter badge 2025](/images/nvdasupporter.jpg)
+Ik ben supporter van [NV Access, de makers van NVDA](https://www.nvaccess.org/). NVDA is een **gratis** open source screenreader (voorleessoftware). Wereldwijd zijn er miljoenen mensen die hierdoor toegang hebben tot het digitale leven, omdat ze vergelijkbare software niet kunnen betalen. Omdat ik deze software zelf niet écht nodig heb, kies ik er voor om voor persoonlijk gebruik jaarlijks te doneren. 
