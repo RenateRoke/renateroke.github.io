@@ -2,6 +2,7 @@
 
 title: Het begin
 summary: Dat je dit leest, betekent in ieder geval dat er iéts live op het internet staat. Maar daaraan ging natuurlijk een heleboel vooraf. In dit blog vertel ik je waarom en hoe ik dit project ben begonnen.
+date: 2025-03-09
 
 --- 
 
