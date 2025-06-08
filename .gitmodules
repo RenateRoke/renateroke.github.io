@@ -5,3 +5,7 @@
 [submodule "static/food"]
   path = static/food
   url = https://github.com/RenateRoke/food
+
+[submodule "rpg"]
+	path = rpg
+	url = https://github.com/RenateRoke/rpg.git
