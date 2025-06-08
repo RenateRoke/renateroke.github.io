@@ -6,6 +6,6 @@
   path = static/food
   url = https://github.com/RenateRoke/food
 
-[submodule "rpg"]
-	path = rpg
+[submodule "static/rpg"]
+	path = static/rpg
 	url = https://github.com/RenateRoke/rpg.git
