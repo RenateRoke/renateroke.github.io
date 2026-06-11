@@ -1,11 +1,3 @@
-[submodule "themes/hugo-theme-zen"]
-	path = themes/hugo-theme-zen
-	url = https://github.com/RenateRoke/hugo-theme-zen
-
-[submodule "static/food"]
-  path = static/food
-  url = https://github.com/RenateRoke/food
-
 [submodule "static/rpg"]
 	path = static/rpg
 	url = https://github.com/RenateRoke/rpg
