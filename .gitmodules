@@ -1,0 +1,3 @@
+[submodule "rpggame"]
+	path = rpggame
+	url = https://github.com/RenateRoke/rpg
