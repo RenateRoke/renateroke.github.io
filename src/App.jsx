@@ -4,10 +4,10 @@ import './App.css'
 function App() {
   return (
     <>
-      <div>
+      <main>
     <h1>🚧 Wordt vernieuwd</h1>
     <p>Binnenkort iets nieuws hier.</p>
-  </div>
+  </main>
     </>
   )
 }
