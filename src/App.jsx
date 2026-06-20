@@ -1,13 +1,21 @@
 import { useState } from 'react'
-import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar.jsx'
+import Home from './pages/Home.jsx'
+import OverMij from './pages/OverMij.jsx'
+import Contact from './pages/Contact.jsx'
 
 function App() {
   return (
     <>
-      <main>
-    <h1>🚧 Wordt vernieuwd</h1>
-    <p>Binnenkort iets nieuws hier.</p>
-  </main>
+    <NavBar />
+    <main id="content">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/overmij" element={<OverMij />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </main>
     </>
   )
 }
