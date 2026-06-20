@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
+import SkipLink from '../SkipLink/SkipLink.jsx';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -8,7 +9,7 @@ const NavBar = () => {
       <div className="name">Renate Roke</div>
       <nav>
         <ul role="list">
-          <li><a href="#content">Direct naar content</a></li>
+          <li><SkipLink /></li>
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/overmij">Over mij</NavLink></li>
           <li><NavLink to="/contact">Contact</NavLink></li>
