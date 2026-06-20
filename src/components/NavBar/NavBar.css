@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;  
+    box-sizing: border-box;
+}
+
+.name {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #FFC5B1;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a[aria-current="page"] {
+    font-weight: bold;
+    text-decoration: underline #F68185 solid 1px;
+    text-underline-offset: 0.5rem;
+}
