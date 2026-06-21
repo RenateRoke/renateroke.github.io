@@ -1,0 +1,39 @@
+.hero {
+    grid-area: 'hero';
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+}
+
+.hero p,
+p span {
+    font-size: 2rem;
+}
+
+.highlight {
+    color: #F68185;
+    font-weight: bold;
+}
+
+.hero-text {
+    justify-self: start;
+    grid-column: 1 / span 3;
+}
+
+.hero-image {
+    justify-self: end;
+    align-self: center;
+    grid-column: 4 / span 1;
+}
+
+.hero-image img {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 50%;
+    border: 2px solid #F68185;
+}
