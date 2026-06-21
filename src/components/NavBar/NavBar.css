@@ -10,6 +10,7 @@
 }
 
 .name {
+    color: #FFC5B1;
     justify-self: start;
     align-self: center;
     font-size: 2em;
@@ -32,7 +33,7 @@ nav ul {
 }
 
 a {
-    color: #FFC5B1;
+    color: #F7ECE1;
     text-decoration: none;
 }
 
@@ -41,6 +42,7 @@ nav li {
 }
 
 nav a[aria-current="page"] {
+    color: #FFC5B1;
     font-weight: bold;
     text-decoration: underline #F68185 solid 1px;
     text-underline-offset: 0.5rem;
