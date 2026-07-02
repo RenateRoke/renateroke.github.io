@@ -54,3 +54,15 @@ a:hover {
     text-decoration: underline #F68185 double 1px;
     text-underline-offset: 0.5rem;
 }
+
+@media only screen and (min-width: 1300px) {
+    #root {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 2600px) {
+    #root {
+        width: 40%;
+    }
+}

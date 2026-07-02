@@ -2,17 +2,17 @@
     width: 100%;
     grid-area: 'navbar';
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, auto);
     grid-template-rows: auto;
     gap: 1rem;
     margin: 2rem 0 2rem 0;
     padding: 2rem 0 2rem 0;
+    align-items: center;
 }
 
 .name {
     color: #FFC5B1;
     justify-self: start;
-    align-self: center;
     font-size: 2em;
     margin: 0;
     padding: 0;
@@ -20,14 +20,12 @@
 
 nav {
     justify-self: end;
-    align-self: center;
 }
 
 nav ul {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    gap: 2rem;
-    align-items: center;
+    gap: 1rem;
     margin: 0;
     padding: 0;
 }
@@ -46,4 +44,48 @@ nav a[aria-current="page"] {
     font-weight: bold;
     text-decoration: underline #F68185 solid 1px;
     text-underline-offset: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+
+    nav {
+        justify-self: center;
+    }
+
+    .name {
+        justify-self: center;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+    }
+
+    nav li {
+        justify-self: center;
+    }
+
+    nav li:first-child {
+        grid-column: 1 / -1;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .navbar {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+    }
+
+    nav {
+        justify-self: center;
+    }
+
+    .name {
+        justify-self: center;
+    }
 }

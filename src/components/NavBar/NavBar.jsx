@@ -1,29 +1,47 @@
 import React from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
-import { useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import SkipLink from '../SkipLink/SkipLink.jsx';
 import './NavBar.css';
 
 const NavBar = () => {
-  const navRef = useRef(null);
+  const [shouldFocusHeading, setShouldFocusHeading] = useState(false);
+  const location = useLocation();
 
   const handleClick = () => {
-    setTimeout(() => {
-      if (navRef.current) {
-        navRef.current.focus();
+    setShouldFocusHeading(true);
+  };
+
+  useEffect(() => {
+    if (!shouldFocusHeading) {
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      const heading = document.querySelector('main h1');
+
+      if (heading) {
+        heading.setAttribute('tabindex', '-1');
+        heading.focus();
       }
+
+      setShouldFocusHeading(false);
     }, 0);
-  }
+
+    return () => window.clearTimeout(timer);
+  }, [location.pathname, shouldFocusHeading]);
 
   return (
-    <header tabindex="-1" ref={navRef} className="navbar">
+    <header className="navbar">
       <span className="name">Renate Roke</span>
-      <nav>
+      <nav aria-label="Hoofdmenu">
         <ul role="list">
           <li><SkipLink /></li>
-          <li><NavLink onClick={handleClick} reloadDocument to="/">Home</NavLink></li>
-          <li><NavLink onClick={handleClick} reloadDocument to="/overmij">Over mij</NavLink></li>
-          <li><NavLink onClick={handleClick} reloadDocument to="/contact">Contact</NavLink></li>
+          <li><NavLink onClick={handleClick} to="/">Home</NavLink></li>
+          <li><NavLink onClick={handleClick} to="/overmij">Over mij</NavLink></li>
+          <li><NavLink onClick={handleClick} to="/contact">Contact</NavLink></li>
           <li><a href="/rpg">RPG</a></li>
         </ul>
       </nav>
