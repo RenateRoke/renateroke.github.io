@@ -3,9 +3,13 @@ import React from 'react';
 const OverMij = () => {
     return (
         <div>
-            <title>Over mij - Renate Roke</title>
-            <h1>🚧 Wordt vernieuwd</h1>
-            <p>Binnenkort iets nieuws hier.</p>
+            <main id="content">
+                <title>Over mij - Renate Roke</title>
+                <div className="content-inner">
+                <h1 id="main-heading">🚧 Wordt vernieuwd</h1>
+                <p>Binnenkort iets nieuws hier.</p>
+                </div>
+            </main>
         </div>
     );
 };
