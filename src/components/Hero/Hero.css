@@ -8,19 +8,21 @@
 }
 
 .hero p,
-p span {
+p span, h1 {
     font-size: 2rem;
 }
 
 .highlight {
     color: #F68185;
     font-weight: bold;
+    font-size: inherit;
 }
 
 .hero-text {
     justify-self: start;
     grid-column: 1 / span 2;
 }
+
 
 .hero-image {
     grid-column: 3 / span 1;
