@@ -21,7 +21,7 @@ body {
 
 #root {
     display: grid;
-    grid-template-areas: "navbar" "hero" "content";
+    grid-template-areas: "navbar" "hero" "content" "footer";
     gap: 1rem;
     width: 80%;
     margin: 0 auto;
