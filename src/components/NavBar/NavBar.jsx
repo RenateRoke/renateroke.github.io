@@ -20,7 +20,7 @@ const NavBar = () => {
     }
 
     const timer = window.setTimeout(() => {
-      const heading = document.querySelector('main h1');
+      const heading = document.querySelector('h1');
 
       if (heading) {
         heading.setAttribute('tabindex', '-1');

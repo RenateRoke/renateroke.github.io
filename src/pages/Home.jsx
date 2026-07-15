@@ -8,7 +8,7 @@ const Home = () => {
             <Hero />
             <main id="content">
                 <div className="content-inner">
-                <h1 id="main-heading">🚧 Wordt vernieuwd</h1>
+                <h2 id="main-heading">🚧 Wordt vernieuwd</h2>
                 <p>Binnenkort iets nieuws hier.</p>
                 </div>
             </main>
