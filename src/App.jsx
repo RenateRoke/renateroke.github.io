@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero.jsx'
 import Home from './pages/Home.jsx'
 import OverMij from './pages/OverMij.jsx'
 import Contact from './pages/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+      <Footer />
     </>
   )
 }

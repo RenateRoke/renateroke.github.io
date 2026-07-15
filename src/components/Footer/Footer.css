@@ -1,0 +1,54 @@
+.footer {
+    grid-area: 'footer';
+    display: grid;
+    grid-template-columns: repeat (3, auto);
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+    gap: 2rem;
+}
+
+.social-links {
+    width: inherit;
+}
+
+.social-links ul {
+    width: inherit;
+    padding: 0;
+    display: grid;
+}
+
+.social-links li {
+    list-style: none;
+    margin: 0;
+}
+
+.social-codepen {
+    grid-column: 3 / span 1;
+    justify-self: center;
+}
+
+.social-github {
+    grid-column: 2 / span 1;
+    justify-self: center;
+}
+
+.social-linkedin {
+    grid-column: 1 / span 1;
+    justify-self: center;
+}
+
+.social-icon {
+    max-height: 2rem;
+    max-width: auto;
+}
+
+.social-links li a {
+    display: inline-block;
+}
+
+.social-links li a:hover {
+    outline: 2px solid #F68185;
+    outline-offset: 2px;
+    border-radius: 1px;
+}
